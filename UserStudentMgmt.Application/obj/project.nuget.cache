@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wOH1/lyMYik=",
+  "dgSpecHash": "5NrVmEp07eM=",
   "success": true,
-  "projectFilePath": "/home/zamir-estrada/Documents/C#/ProjectsAPi/UserAndStudentManagementWithJWTAuthentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/anamaria-mu-oz/.nuget/packages/microsoft.netcore.app.ref/8.0.21/microsoft.netcore.app.ref.8.0.21.nupkg.sha512",
+    "/home/anamaria-mu-oz/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.21/microsoft.aspnetcore.app.ref.8.0.21.nupkg.sha512"
+  ],
   "logs": []
 }
