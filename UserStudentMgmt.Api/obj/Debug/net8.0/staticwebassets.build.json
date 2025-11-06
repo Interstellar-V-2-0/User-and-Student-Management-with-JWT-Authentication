@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DUJxr7D2xAz5yTnidHfBHQ8IXkQ5X6qg3bu5GguaPlM=",
+  "Source": "UserStudentMgmt.Api",
+  "BasePath": "_content/UserStudentMgmt.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

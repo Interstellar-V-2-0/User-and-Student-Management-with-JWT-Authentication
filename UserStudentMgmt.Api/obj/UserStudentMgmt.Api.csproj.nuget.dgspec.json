@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Api/UserStudentMgmt.Api.csproj": {}
+    "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Api/UserStudentMgmt.Api.csproj": {}
   },
   "projects": {
-    "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Api/UserStudentMgmt.Api.csproj": {
+    "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Api/UserStudentMgmt.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Api/UserStudentMgmt.Api.csproj",
+        "projectUniqueName": "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Api/UserStudentMgmt.Api.csproj",
         "projectName": "UserStudentMgmt.Api",
-        "projectPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Api/UserStudentMgmt.Api.csproj",
-        "packagesPath": "/home/cohorte4/.nuget/packages/",
-        "outputPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Api/obj/",
+        "projectPath": "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Api/UserStudentMgmt.Api.csproj",
+        "packagesPath": "/home/coders/.nuget/packages/",
+        "outputPath": "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/cohorte4/.nuget/NuGet/NuGet.Config"
+          "/home/coders/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj": {
-                "projectPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj"
+              "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj": {
+                "projectPath": "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj"
               },
-              "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/UserStudentMgmt.Infrastructure.csproj": {
-                "projectPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/UserStudentMgmt.Infrastructure.csproj"
+              "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/UserStudentMgmt.Infrastructure.csproj": {
+                "projectPath": "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/UserStudentMgmt.Infrastructure.csproj"
               }
             }
           }
@@ -48,6 +48,26 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -77,17 +97,17 @@
         }
       }
     },
-    "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj": {
+    "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj",
+        "projectUniqueName": "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj",
         "projectName": "UserStudentMgmt.Application",
-        "projectPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj",
-        "packagesPath": "/home/cohorte4/.nuget/packages/",
-        "outputPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/obj/",
+        "projectPath": "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj",
+        "packagesPath": "/home/coders/.nuget/packages/",
+        "outputPath": "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/cohorte4/.nuget/NuGet/NuGet.Config"
+          "/home/coders/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -99,8 +119,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj": {
-                "projectPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj"
+              "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj": {
+                "projectPath": "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj"
               }
             }
           }
@@ -134,17 +154,17 @@
         }
       }
     },
-    "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj": {
+    "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj",
+        "projectUniqueName": "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj",
         "projectName": "UserStudentMgmt.Domain",
-        "projectPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj",
-        "packagesPath": "/home/cohorte4/.nuget/packages/",
-        "outputPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/obj/",
+        "projectPath": "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj",
+        "packagesPath": "/home/coders/.nuget/packages/",
+        "outputPath": "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/cohorte4/.nuget/NuGet/NuGet.Config"
+          "/home/coders/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -187,17 +207,17 @@
         }
       }
     },
-    "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/UserStudentMgmt.Infrastructure.csproj": {
+    "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/UserStudentMgmt.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/UserStudentMgmt.Infrastructure.csproj",
+        "projectUniqueName": "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/UserStudentMgmt.Infrastructure.csproj",
         "projectName": "UserStudentMgmt.Infrastructure",
-        "projectPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/UserStudentMgmt.Infrastructure.csproj",
-        "packagesPath": "/home/cohorte4/.nuget/packages/",
-        "outputPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/obj/",
+        "projectPath": "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/UserStudentMgmt.Infrastructure.csproj",
+        "packagesPath": "/home/coders/.nuget/packages/",
+        "outputPath": "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/cohorte4/.nuget/NuGet/NuGet.Config"
+          "/home/coders/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -209,8 +229,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj": {
-                "projectPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj"
+              "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj": {
+                "projectPath": "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj"
               }
             }
           }
@@ -224,6 +244,30 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
