@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1JogGW9wJ6M=",
+  "dgSpecHash": "qvIZ4vskNVE=",
   "success": true,
-  "projectFilePath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj",
+  "projectFilePath": "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
