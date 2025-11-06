@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Api/UserStudentMgmt.Api.csproj": {}
+    "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Api/UserStudentMgmt.Api.csproj": {}
   },
   "projects": {
-    "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Api/UserStudentMgmt.Api.csproj": {
+    "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Api/UserStudentMgmt.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Api/UserStudentMgmt.Api.csproj",
+        "projectUniqueName": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Api/UserStudentMgmt.Api.csproj",
         "projectName": "UserStudentMgmt.Api",
-        "projectPath": "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Api/UserStudentMgmt.Api.csproj",
-        "packagesPath": "/home/anamaria-mu-oz/.nuget/packages/",
-        "outputPath": "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Api/obj/",
+        "projectPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Api/UserStudentMgmt.Api.csproj",
+        "packagesPath": "/home/cohorte4/.nuget/packages/",
+        "outputPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/anamaria-mu-oz/.nuget/NuGet/NuGet.Config"
+          "/home/cohorte4/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj": {
-                "projectPath": "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj"
+              "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj": {
+                "projectPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj"
               },
-              "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/UserStudentMgmt.Infrastructure.csproj": {
-                "projectPath": "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/UserStudentMgmt.Infrastructure.csproj"
+              "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/UserStudentMgmt.Infrastructure.csproj": {
+                "projectPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/UserStudentMgmt.Infrastructure.csproj"
               }
             }
           }
@@ -39,13 +39,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -71,20 +65,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.21, 8.0.21]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[8.0.21, 8.0.21]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.21, 8.0.21]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -93,21 +73,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/anamaria-mu-oz/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj": {
+    "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj",
+        "projectUniqueName": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj",
         "projectName": "UserStudentMgmt.Application",
-        "projectPath": "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj",
-        "packagesPath": "/home/anamaria-mu-oz/.nuget/packages/",
-        "outputPath": "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/obj/",
+        "projectPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj",
+        "packagesPath": "/home/cohorte4/.nuget/packages/",
+        "outputPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/anamaria-mu-oz/.nuget/NuGet/NuGet.Config"
+          "/home/cohorte4/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -119,8 +99,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj": {
-                "projectPath": "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj"
+              "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj": {
+                "projectPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj"
               }
             }
           }
@@ -129,13 +109,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -151,36 +125,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.21, 8.0.21]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.21, 8.0.21]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/anamaria-mu-oz/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj": {
+    "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj",
+        "projectUniqueName": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj",
         "projectName": "UserStudentMgmt.Domain",
-        "projectPath": "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj",
-        "packagesPath": "/home/anamaria-mu-oz/.nuget/packages/",
-        "outputPath": "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/obj/",
+        "projectPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj",
+        "packagesPath": "/home/cohorte4/.nuget/packages/",
+        "outputPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/anamaria-mu-oz/.nuget/NuGet/NuGet.Config"
+          "/home/cohorte4/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -198,13 +162,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -220,36 +178,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.21, 8.0.21]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.21, 8.0.21]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/anamaria-mu-oz/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/UserStudentMgmt.Infrastructure.csproj": {
+    "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/UserStudentMgmt.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/UserStudentMgmt.Infrastructure.csproj",
+        "projectUniqueName": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/UserStudentMgmt.Infrastructure.csproj",
         "projectName": "UserStudentMgmt.Infrastructure",
-        "projectPath": "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/UserStudentMgmt.Infrastructure.csproj",
-        "packagesPath": "/home/anamaria-mu-oz/.nuget/packages/",
-        "outputPath": "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/obj/",
+        "projectPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/UserStudentMgmt.Infrastructure.csproj",
+        "packagesPath": "/home/cohorte4/.nuget/packages/",
+        "outputPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/anamaria-mu-oz/.nuget/NuGet/NuGet.Config"
+          "/home/cohorte4/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -261,8 +209,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj": {
-                "projectPath": "/home/anamaria-mu-oz/Escritorio/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj"
+              "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj": {
+                "projectPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj"
               }
             }
           }
@@ -271,13 +219,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -293,22 +235,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.21, 8.0.21]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.21, 8.0.21]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/anamaria-mu-oz/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
