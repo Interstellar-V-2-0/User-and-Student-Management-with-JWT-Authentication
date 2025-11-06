@@ -1,6 +1,17 @@
-namespace UserStudentMgmt.Infrastructure.Repositories;
+using Microsoft.EntityFrameworkCore;
+using UserStudentMgmt.Domain.Entities;
+using UserStudentMgmt.Domain.Interfaces;
+using UserStudentMgmt.Infrastructure.Data;
 
-public class DocumentTypeRepository
+namespace UserStudentMgmt.Infrastructure.Repositories
 {
-    
+    public class DocumentTypeRepository : Repository<DocumentType>, IDocumentTypeRepository
+    {
+        public DocumentTypeRepository(UserStudentMgmtDbContext context) : base(context) {}
+
+        public async Task<DocumentType> GetByDocumentTypeIdAsync(int documentTypeId)
+        {
+            return await _dbSet.FirstOrDefaultAsync(d => d.Id == documentTypeId);
+        }
+    }
 }

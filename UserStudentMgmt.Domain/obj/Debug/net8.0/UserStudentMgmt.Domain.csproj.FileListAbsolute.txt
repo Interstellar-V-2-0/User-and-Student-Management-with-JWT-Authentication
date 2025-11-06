@@ -1,0 +1,12 @@
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/bin/Debug/net8.0/UserStudentMgmt.Domain.deps.json
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/bin/Debug/net8.0/UserStudentMgmt.Domain.dll
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/bin/Debug/net8.0/UserStudentMgmt.Domain.pdb
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/obj/Debug/net8.0/UserStudentMgmt.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/obj/Debug/net8.0/UserStudentMgmt.Domain.AssemblyInfoInputs.cache
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/obj/Debug/net8.0/UserStudentMgmt.Domain.AssemblyInfo.cs
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/obj/Debug/net8.0/UserStudentMgmt.Domain.csproj.CoreCompileInputs.cache
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/obj/Debug/net8.0/UserStudentMgmt.Domain.sourcelink.json
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/obj/Debug/net8.0/UserStudentMgmt.Domain.dll
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/obj/Debug/net8.0/refint/UserStudentMgmt.Domain.dll
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/obj/Debug/net8.0/UserStudentMgmt.Domain.pdb
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/obj/Debug/net8.0/ref/UserStudentMgmt.Domain.dll

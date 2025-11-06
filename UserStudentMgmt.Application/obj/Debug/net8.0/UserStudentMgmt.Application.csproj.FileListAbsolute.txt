@@ -1,0 +1,16 @@
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/bin/Debug/net8.0/UserStudentMgmt.Application.deps.json
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/bin/Debug/net8.0/UserStudentMgmt.Application.dll
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/bin/Debug/net8.0/UserStudentMgmt.Application.pdb
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/bin/Debug/net8.0/UserStudentMgmt.Domain.dll
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/bin/Debug/net8.0/UserStudentMgmt.Domain.pdb
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/obj/Debug/net8.0/UserStudentMgmt.Application.csproj.AssemblyReference.cache
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/obj/Debug/net8.0/UserStudentMgmt.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/obj/Debug/net8.0/UserStudentMgmt.Application.AssemblyInfoInputs.cache
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/obj/Debug/net8.0/UserStudentMgmt.Application.AssemblyInfo.cs
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/obj/Debug/net8.0/UserStudentMgmt.Application.csproj.CoreCompileInputs.cache
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/obj/Debug/net8.0/UserStudentMgmt.Application.sourcelink.json
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/obj/Debug/net8.0/UserStudentMgmt.Application.csproj.CopyComplete
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/obj/Debug/net8.0/UserStudentMgmt.Application.dll
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/obj/Debug/net8.0/refint/UserStudentMgmt.Application.dll
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/obj/Debug/net8.0/UserStudentMgmt.Application.pdb
+/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/obj/Debug/net8.0/ref/UserStudentMgmt.Application.dll

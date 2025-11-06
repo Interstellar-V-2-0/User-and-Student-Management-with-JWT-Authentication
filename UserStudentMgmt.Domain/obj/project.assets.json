@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/cohorte4/.nuget/packages/": {}
+    "/home/coders/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj",
+      "projectUniqueName": "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj",
       "projectName": "UserStudentMgmt.Domain",
-      "projectPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj",
-      "packagesPath": "/home/cohorte4/.nuget/packages/",
-      "outputPath": "/home/cohorte4/RiderProjects/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/obj/",
+      "projectPath": "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj",
+      "packagesPath": "/home/coders/.nuget/packages/",
+      "outputPath": "/home/coders/Documentos/C#/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/cohorte4/.nuget/NuGet/NuGet.Config"
+        "/home/coders/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
