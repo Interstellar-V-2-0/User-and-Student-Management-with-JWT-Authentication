@@ -5,6 +5,7 @@ using AutoMapper;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using UserStudentMgmt.Application.DTOs.Auth;
+using UserStudentMgmt.Application.DTOs.Users;
 using UserStudentMgmt.Application.Interfaces;
 using UserStudentMgmt.Domain.Entities;
 using UserStudentMgmt.Domain.Interfaces;
