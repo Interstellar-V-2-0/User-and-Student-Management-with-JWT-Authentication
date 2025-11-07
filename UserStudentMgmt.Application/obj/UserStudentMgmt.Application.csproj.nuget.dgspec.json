@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\OneDrive\\Escritorio\\User-and-Student-Management-with-JWT-Authentication\\UserStudentMgmt.Application\\UserStudentMgmt.Application.csproj": {}
+    "/home/zamir-estrada/Documents/C#/Projects-DDD/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\OneDrive\\Escritorio\\User-and-Student-Management-with-JWT-Authentication\\UserStudentMgmt.Application\\UserStudentMgmt.Application.csproj": {
+    "/home/zamir-estrada/Documents/C#/Projects-DDD/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\OneDrive\\Escritorio\\User-and-Student-Management-with-JWT-Authentication\\UserStudentMgmt.Application\\UserStudentMgmt.Application.csproj",
+        "projectUniqueName": "/home/zamir-estrada/Documents/C#/Projects-DDD/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj",
         "projectName": "UserStudentMgmt.Application",
-        "projectPath": "C:\\Users\\PC\\OneDrive\\Escritorio\\User-and-Student-Management-with-JWT-Authentication\\UserStudentMgmt.Application\\UserStudentMgmt.Application.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\OneDrive\\Escritorio\\User-and-Student-Management-with-JWT-Authentication\\UserStudentMgmt.Application\\obj\\",
+        "projectPath": "/home/zamir-estrada/Documents/C#/Projects-DDD/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/UserStudentMgmt.Application.csproj",
+        "packagesPath": "/home/zamir-estrada/.nuget/packages/",
+        "outputPath": "/home/zamir-estrada/Documents/C#/Projects-DDD/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/zamir-estrada/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\PC\\OneDrive\\Escritorio\\User-and-Student-Management-with-JWT-Authentication\\UserStudentMgmt.Domain\\UserStudentMgmt.Domain.csproj": {
-                "projectPath": "C:\\Users\\PC\\OneDrive\\Escritorio\\User-and-Student-Management-with-JWT-Authentication\\UserStudentMgmt.Domain\\UserStudentMgmt.Domain.csproj"
+              "/home/zamir-estrada/Documents/C#/Projects-DDD/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj": {
+                "projectPath": "/home/zamir-estrada/Documents/C#/Projects-DDD/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj"
               }
             }
           }
@@ -36,13 +36,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -50,11 +44,7 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[15.1.0, )"
-            },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[12.0.1, )"
+              "version": "[13.0.1, )"
             },
             "BCrypt.Net-Next": {
               "target": "Package",
@@ -85,21 +75,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PC\\OneDrive\\Escritorio\\User-and-Student-Management-with-JWT-Authentication\\UserStudentMgmt.Domain\\UserStudentMgmt.Domain.csproj": {
+    "/home/zamir-estrada/Documents/C#/Projects-DDD/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\OneDrive\\Escritorio\\User-and-Student-Management-with-JWT-Authentication\\UserStudentMgmt.Domain\\UserStudentMgmt.Domain.csproj",
+        "projectUniqueName": "/home/zamir-estrada/Documents/C#/Projects-DDD/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj",
         "projectName": "UserStudentMgmt.Domain",
-        "projectPath": "C:\\Users\\PC\\OneDrive\\Escritorio\\User-and-Student-Management-with-JWT-Authentication\\UserStudentMgmt.Domain\\UserStudentMgmt.Domain.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\OneDrive\\Escritorio\\User-and-Student-Management-with-JWT-Authentication\\UserStudentMgmt.Domain\\obj\\",
+        "projectPath": "/home/zamir-estrada/Documents/C#/Projects-DDD/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj",
+        "packagesPath": "/home/zamir-estrada/.nuget/packages/",
+        "outputPath": "/home/zamir-estrada/Documents/C#/Projects-DDD/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/zamir-estrada/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -117,13 +107,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -144,7 +128,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
