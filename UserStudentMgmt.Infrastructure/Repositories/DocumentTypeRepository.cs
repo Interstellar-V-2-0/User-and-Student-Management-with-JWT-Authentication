@@ -7,7 +7,7 @@ namespace UserStudentMgmt.Infrastructure.Repositories
 {
     public class DocumentTypeRepository : Repository<DocumentType>, IDocumentTypeRepository
     {
-        public DocumentTypeRepository(UserStudentMgmtDbContext context) : base(context) {}
+        public DocumentTypeRepository(AppDbContext context) : base(context) {}
 
         public async Task<DocumentType> GetByDocumentTypeIdAsync(int documentTypeId)
         {

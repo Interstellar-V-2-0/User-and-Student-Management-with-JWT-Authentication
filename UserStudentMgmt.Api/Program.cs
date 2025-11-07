@@ -61,7 +61,7 @@ builder.Services.AddSwaggerGen(c =>
 // ---------------------------------------------------------
 // Configuración de Entity Framework Core con MySQL
 // ---------------------------------------------------------
-builder.Services.AddDbContext<UserStudentMgmtDbContext>(options =>
+builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
         new MySqlServerVersion(new Version(8, 0, 36)) // Ajustar si se usa otra versión de MySQL
@@ -83,7 +83,7 @@ var app = builder.Build();
 // 🔹 Ejecutar el Seeder antes de correr la app
 using (var scope = app.Services.CreateScope())
 {
-    var dbContext = scope.ServiceProvider.GetRequiredService<UserStudentMgmtDbContext>();
+    var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     await DbSeeder.SeedAsync(dbContext);
 }
 

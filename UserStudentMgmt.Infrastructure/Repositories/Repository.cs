@@ -6,10 +6,10 @@ namespace UserStudentMgmt.Infrastructure.Repositories
 {
     public class Repository<T> : IRepository<T> where T : class
     {
-        protected readonly UserStudentMgmtDbContext _context;
+        protected readonly AppDbContext _context;
         protected readonly DbSet<T> _dbSet;
 
-        public Repository(UserStudentMgmtDbContext context)
+        public Repository(AppDbContext context)
         {
             _context = context;
             _dbSet = context.Set<T>();
@@ -27,7 +27,7 @@ namespace UserStudentMgmt.Infrastructure.Repositories
 
         public async Task AddAsync(T entity)
         {
-            await _dbSet.AddAsync(entity);
+            _dbSet.Add(entity);
             await _context.SaveChangesAsync();
         }
 

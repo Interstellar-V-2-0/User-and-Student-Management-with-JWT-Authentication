@@ -10,7 +10,7 @@ using UserStudentMgmt.Infrastructure.Data;
 
 namespace UserStudentMgmt.Infrastructure.Migrations
 {
-    [DbContext(typeof(UserStudentMgmtDbContext))]
+    [DbContext(typeof(AppDbContext))]
     [Migration("20251106190746_InitialCreate")]
     partial class InitialCreate
     {
