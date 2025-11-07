@@ -1,20 +1,21 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using UserStudentMgmt.Infrastructure.Data;
-using UserStudentMgmt.Domain.Interfaces;
 using UserStudentMgmt.Infrastructure.Repositories;
-using UserStudentMgmt.Infrastructure.Seed; // 👈 Importamos el seeder
+using UserStudentMgmt.Infrastructure.Seed;
+using UserStudentMgmt.Domain.Interfaces;
+using UserStudentMgmt.Application.Interfaces;
+using UserStudentMgmt.Application.Services;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// ---------------------------------------------------------
-// Configuración de servicios
-// ---------------------------------------------------------
 
 // Controladores
 builder.Services.AddControllers();
 
-// Configuración avanzada de Swagger con soporte para JWT
+// Swagger + JWT
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -22,7 +23,7 @@ builder.Services.AddSwaggerGen(c =>
     {
         Version = "v1",
         Title = "User & Student Management API",
-        Description = "API REST para gestión de usuarios y estudiantes con autenticación JWT, desarrollada en .NET 8 con arquitectura en capas.",
+        Description = "API REST para gestión de usuarios y estudiantes con autenticación JWT",
         Contact = new OpenApiContact
         {
             Name = "Equipo Interstellar V 2.0",
@@ -30,7 +31,6 @@ builder.Services.AddSwaggerGen(c =>
         }
     });
 
-    // Definición del esquema de seguridad para JWT
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",
@@ -41,7 +41,6 @@ builder.Services.AddSwaggerGen(c =>
         Description = "Ingresa tu token JWT así: Bearer {token}"
     });
 
-    // Requisito de seguridad global para Swagger
     c.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
         {
@@ -58,52 +57,74 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-// ---------------------------------------------------------
-// Configuración de Entity Framework Core con MySQL
-// ---------------------------------------------------------
+// EF Core + MySQL
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
-        new MySqlServerVersion(new Version(8, 0, 36)) // Ajustar si se usa otra versión de MySQL
+        new MySqlServerVersion(new Version(8, 0, 36))
     )
 );
 
-// ---------------------------------------------------------
-// Inyección de dependencias (Repositorios)
-// ---------------------------------------------------------
+// Repositorios
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IDocumentTypeRepository, DocumentTypeRepository>();
 
-// ---------------------------------------------------------
-// Configuración del pipeline HTTP
-// ---------------------------------------------------------
+// Servicios Application
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IStudentService, StudentService>();
+builder.Services.AddScoped<IDocumentTypeService, DocumentTypeService>();
+
+// AutoMapper
+builder.Services.AddAutoMapper(typeof(UserStudentMgmt.Application.Mappings.Profiles.UserProfile).Assembly);
+
+// JWT
+var jwtSettings = builder.Configuration.GetSection("Jwt");
+var key = Encoding.UTF8.GetBytes(jwtSettings["Key"]);
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = jwtSettings["Issuer"],
+        ValidAudience = jwtSettings["Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(key)
+    };
+});
+
 var app = builder.Build();
 
-// 🔹 Ejecutar el Seeder antes de correr la app
+// Seeder
 using (var scope = app.Services.CreateScope())
 {
     var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     await DbSeeder.SeedAsync(dbContext);
 }
 
+// Swagger
 if (app.Environment.IsDevelopment())
 {
-    // Swagger disponible en entorno de desarrollo
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "User & Student Management API v1");
-        c.RoutePrefix = string.Empty; // Swagger en la raíz
+        c.RoutePrefix = string.Empty;
     });
 }
 
 app.UseHttpsRedirection();
-
-// Middleware para autenticación y autorización (se habilitará con JWT)
+app.UseAuthentication(); // 👈 importante
 app.UseAuthorization();
 
-// Mapeo de controladores
 app.MapControllers();
-
 app.Run();

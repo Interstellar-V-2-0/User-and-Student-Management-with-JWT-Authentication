@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cyUw8WtXfrk=",
+  "dgSpecHash": "ghvS3nsbusQ=",
   "success": true,
-  "projectFilePath": "/home/zamir-estrada/Documents/C#/Projects-DDD/User-and-Student-Management-with-JWT-Authentication/UserStudentMgmt.Domain/UserStudentMgmt.Domain.csproj",
+  "projectFilePath": "C:\\Users\\PC\\OneDrive\\Escritorio\\User-and-Student-Management-with-JWT-Authentication\\UserStudentMgmt.Domain\\UserStudentMgmt.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
