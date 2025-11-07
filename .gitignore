@@ -1,0 +1,12 @@
+# Carpetas de compilación
+[Bb]in/
+[Oo]bj/
+
+# Archivos de configuración locales
+appsettings.Development.json
+appsettings.Local.json
+# Si tienes un appsettings.json con claves reales, también debería estar aquí, 
+# o deberías usar variables de entorno.
+
+# Archivos de configuración específicos de Docker que puedan contener secretos
+docker-compose.yml
