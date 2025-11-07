@@ -3,16 +3,16 @@ using UserStudentMgmt.Domain.Entities;
 
 namespace UserStudentMgmt.Infrastructure.Data
 {
-    public class UserStudentMgmtDbContext : DbContext
+    public class AppDbContext : DbContext
     {
-        public UserStudentMgmtDbContext(DbContextOptions<UserStudentMgmtDbContext> options)
+        public AppDbContext(DbContextOptions<AppDbContext> options)
             : base(options)
         {
         }
 
         public DbSet<User> Users { get; set; }
         public DbSet<DocumentType> DocumentTypes { get; set; }
-
+        public DbSet<Student> Students { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

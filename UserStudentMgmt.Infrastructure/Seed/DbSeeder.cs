@@ -6,7 +6,7 @@ namespace UserStudentMgmt.Infrastructure.Seed
 {
     public static class DbSeeder
     {
-        public static async Task SeedAsync(UserStudentMgmtDbContext context)
+        public static async Task SeedAsync(AppDbContext context)
         {
             // Aplica migraciones si aún no están
             await context.Database.MigrateAsync();
@@ -16,9 +16,10 @@ namespace UserStudentMgmt.Infrastructure.Seed
             {
                 var docTypes = new List<DocumentType>
                 {
-                    new DocumentType { Name = "Cédula de Ciudadanía" },
-                    new DocumentType { Name = "Tarjeta de Identidad" },
-                    new DocumentType { Name = "Cédula de Extranjería" }
+                    new DocumentType { Name = "Citizenship Card" },
+                    new DocumentType { Name = "Identity Card" },
+                    new DocumentType { Name = "Foreigner ID" },
+                    new DocumentType { Name = "Other" }
                 };
 
                 await context.Set<DocumentType>().AddRangeAsync(docTypes);
@@ -29,7 +30,10 @@ namespace UserStudentMgmt.Infrastructure.Seed
             if (!context.Set<User>().Any(u => u.UserName == "admin"))
             {
                 var firstDocType = await context.Set<DocumentType>().FirstAsync();
-
+                if (firstDocType == null)
+                {
+                    throw new InvalidOperationException("Fatal error: DocumentType not found after attempting to seed.");
+                }
                 var adminUser = new User
                 {
                     Name = "Administrador",
@@ -42,7 +46,7 @@ namespace UserStudentMgmt.Infrastructure.Seed
                     PasswordHash = BCrypt.Net.BCrypt.HashPassword("Admin123*")
                 };
 
-                await context.Set<User>().AddAsync(adminUser);
+                context.Set<User>().Add(adminUser);
                 await context.SaveChangesAsync();
             }
         }
